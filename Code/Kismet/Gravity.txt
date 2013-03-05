@@ -1,0 +1,151 @@
+Begin Object Class=SeqEvent_Touch Name=SeqEvent_Touch_13
+   Originator=TriggerVolume'TriggerVolume_1'
+   MaxWidth=165
+   OutputLinks(0)=(Links=((LinkedOp=SeqAct_Interp'SeqAct_Interp_6')),DrawY=1509,OverrideDelta=14)
+   OutputLinks(1)=(Links=((LinkedOp=SeqAct_Interp'SeqAct_Interp_6',InputLinkIdx=1)),DrawY=1530,OverrideDelta=35)
+   OutputLinks(2)=(DrawY=1551,OverrideDelta=56)
+   VariableLinks(0)=(DrawX=1442,OverrideDelta=50)
+   ObjInstanceVersion=2
+   ParentSequence=Sequence'Gravity'
+   ObjPosX=1360
+   ObjPosY=1440
+   ObjName="TriggerVolume_1 Touch"
+   DrawWidth=127
+   DrawHeight=176
+   Name="SeqEvent_Touch_13"
+   ObjectArchetype=SeqEvent_Touch'Engine.Default__SeqEvent_Touch'
+End Object
+Begin Object Class=InterpData Name=InterpData_6
+   Begin Object Class=InterpGroup Name=InterpGroup_0
+      Begin Object Class=InterpTrackMove Name=InterpTrackMove_0
+         PosTrack=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=2.489475,OutVal=(X=-0.000031,Y=-0.000061,Z=128.000122),InterpMode=CIM_CurveAutoClamped)))
+         EulerTrack=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=2.489475,InterpMode=CIM_CurveAutoClamped)))
+         LookupTrack=(Points=(,(Time=2.489475)))
+         MoveFrame=IMF_RelativeToInitial
+         Name="InterpTrackMove_0"
+         ObjectArchetype=InterpTrackMove'Engine.Default__InterpTrackMove'
+      End Object
+      InterpTracks(0)=InterpTrackMove'InterpTrackMove_0'
+      GroupName="Raise"
+      GroupColor=(B=0,G=204,R=123,A=255)
+      Name="InterpGroup_0"
+      ObjectArchetype=InterpGroup'Engine.Default__InterpGroup'
+   End Object
+   InterpLength=2.489475
+   InterpGroups(0)=InterpGroup'InterpGroup_0'
+   SelectedFilter=InterpFilter'Engine.Default__InterpData:FilterAll'
+   EdSectionEnd=2.489475
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Gravity'
+   ObjPosX=1632
+   ObjPosY=1600
+   DrawWidth=32
+   DrawHeight=32
+   Name="InterpData_6"
+   ObjectArchetype=InterpData'Engine.Default__InterpData'
+End Object
+Begin Object Class=SeqAct_Interp Name=SeqAct_Interp_6
+   InputLinks(0)=(DrawY=1438,OverrideDelta=15)
+   InputLinks(1)=(DrawY=1460,OverrideDelta=37)
+   InputLinks(2)=(DrawY=1482,OverrideDelta=59)
+   InputLinks(3)=(DrawY=1504,OverrideDelta=81)
+   InputLinks(4)=(DrawY=1526,OverrideDelta=103)
+   OutputLinks(0)=(Links=((LinkedOp=SeqAct_Interp'SeqAct_Interp_5')),DrawY=1454,OverrideDelta=31)
+   OutputLinks(1)=(DrawY=1510,OverrideDelta=87)
+   VariableLinks(0)=(LinkedVariables=(InterpData'InterpData_6'),DrawX=1683,OverrideDelta=36)
+   VariableLinks(1)=(ExpectedType=Class'Engine.SeqVar_Object',LinkedVariables=(SeqVar_Object'SeqVar_Object_13'),LinkDesc="Raise",MinVars=0,DrawX=1732,OverrideDelta=83)
+   ObjInstanceVersion=2
+   ParentSequence=Sequence'Gravity'
+   ObjPosX=1632
+   ObjPosY=1400
+   DrawWidth=154
+   DrawHeight=157
+   Name="SeqAct_Interp_6"
+   ObjectArchetype=SeqAct_Interp'Engine.Default__SeqAct_Interp'
+End Object
+Begin Object Class=SeqVar_Object Name=SeqVar_Object_13
+   ObjValue=InterpActor'InterpActor_11'
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Gravity'
+   ObjPosX=1792
+   ObjPosY=1624
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Object_13"
+   ObjectArchetype=SeqVar_Object'Engine.Default__SeqVar_Object'
+End Object
+Begin Object Class=SeqAct_Interp Name=SeqAct_Interp_5
+   bLooping=True
+   InputLinks(0)=(DrawY=1478,OverrideDelta=15)
+   InputLinks(1)=(DrawY=1500,OverrideDelta=37)
+   InputLinks(2)=(DrawY=1522,OverrideDelta=59)
+   InputLinks(3)=(DrawY=1544,OverrideDelta=81)
+   InputLinks(4)=(DrawY=1566,OverrideDelta=103)
+   OutputLinks(0)=(DrawY=1494,OverrideDelta=31)
+   OutputLinks(1)=(DrawY=1550,OverrideDelta=87)
+   VariableLinks(0)=(LinkedVariables=(InterpData'InterpData_5'),DrawX=1964,OverrideDelta=37)
+   VariableLinks(1)=(ExpectedType=Class'Engine.SeqVar_Object',LinkedVariables=(SeqVar_Object'SeqVar_Object_11'),LinkDesc="Float",MinVars=0,DrawX=2012,OverrideDelta=84)
+   ObjInstanceVersion=2
+   ParentSequence=Sequence'Gravity'
+   ObjPosX=1912
+   ObjPosY=1440
+   DrawWidth=154
+   DrawHeight=157
+   Name="SeqAct_Interp_5"
+   ObjectArchetype=SeqAct_Interp'Engine.Default__SeqAct_Interp'
+End Object
+Begin Object Class=InterpData Name=InterpData_5
+   Begin Object Class=InterpGroup Name=InterpGroup_2
+      Begin Object Class=InterpTrackMove Name=InterpTrackMove_3
+         PosTrack=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=1.003286,OutVal=(X=-0.000046,Y=-0.000031,Z=32.000122),ArriveTangent=(X=-0.000038,Y=-0.000038,Z=0.000000),LeaveTangent=(X=-0.000038,Y=-0.000038,Z=0.000000),InterpMode=CIM_CurveAutoClamped),(InVal=2.007103,OutVal=(X=-0.000076,Y=-0.000076,Z=-15.999756),ArriveTangent=(X=-0.000038,Y=-0.000046,Z=0.000000),LeaveTangent=(X=-0.000038,Y=-0.000046,Z=0.000000),InterpMode=CIM_CurveAutoClamped),(InVal=2.996580,OutVal=(X=-0.000122,Y=-0.000122,Z=32.000366),ArriveTangent=(X=-0.000046,Y=-0.000046,Z=0.000000),LeaveTangent=(X=-0.000046,Y=-0.000046,Z=0.000000),InterpMode=CIM_CurveAutoClamped),(InVal=4.014738,OutVal=(X=-0.000168,Y=-0.000168,Z=-15.999512),InterpMode=CIM_CurveAutoClamped)))
+         EulerTrack=(Points=((InterpMode=CIM_CurveAutoClamped),(InVal=1.003286,InterpMode=CIM_CurveAutoClamped),(InVal=2.007103,InterpMode=CIM_CurveAutoClamped),(InVal=2.996580,InterpMode=CIM_CurveAutoClamped),(InVal=4.014738,InterpMode=CIM_CurveAutoClamped)))
+         LookupTrack=(Points=(,(Time=1.003286),(Time=2.007103),(Time=2.996580),(Time=4.014738)))
+         MoveFrame=IMF_RelativeToInitial
+         TrackTitle="Raise"
+         Name="InterpTrackMove_3"
+         ObjectArchetype=InterpTrackMove'Engine.Default__InterpTrackMove'
+      End Object
+      InterpTracks(0)=InterpTrackMove'InterpTrackMove_3'
+      GroupName="Float"
+      GroupColor=(B=163,G=176,R=0,A=255)
+      Name="InterpGroup_2"
+      ObjectArchetype=InterpGroup'Engine.Default__InterpGroup'
+   End Object
+   Begin Object Class=InterpCurveEdSetup Name=InterpCurveEdSetup_1
+      Name="InterpCurveEdSetup_1"
+      ObjectArchetype=InterpCurveEdSetup'Engine.Default__InterpCurveEdSetup'
+   End Object
+   InterpLength=4.005648
+   InterpGroups(0)=InterpGroup'InterpGroup_2'
+   CurveEdSetup=InterpCurveEdSetup'InterpCurveEdSetup_1'
+   SelectedFilter=InterpFilter'Engine.Default__InterpData:FilterAll'
+   EdSectionEnd=4.005648
+   ObjInstanceVersion=1
+   ParentSequence=Sequence'Gravity'
+   ObjPosX=1912
+   ObjPosY=1640
+   DrawWidth=32
+   DrawHeight=32
+   Name="InterpData_5"
+   ObjectArchetype=InterpData'Engine.Default__InterpData'
+End Object
+Begin Object Class=SeqVar_Object Name=SeqVar_Object_12
+   ObjValue=InterpActor'InterpActor_11'
+   ObjInstanceVersion=1
+   ObjPosX=2012
+   ObjPosY=1597
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Object_12"
+   ObjectArchetype=SeqVar_Object'Engine.Default__SeqVar_Object'
+End Object
+Begin Object Class=SeqVar_Object Name=SeqVar_Object_11
+   ObjValue=InterpActor'InterpActor_11'
+   ObjInstanceVersion=1
+   ObjPosX=2012
+   ObjPosY=1597
+   DrawWidth=32
+   DrawHeight=32
+   Name="SeqVar_Object_11"
+   ObjectArchetype=SeqVar_Object'Engine.Default__SeqVar_Object'
+End Object

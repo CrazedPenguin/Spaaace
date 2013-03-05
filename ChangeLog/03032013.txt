@@ -1,0 +1,10 @@
+I managed to get gravity working.  It can be applied to any static mesh by 
+converting the mesh to an InterpActor and giving it a trigger.  At the moment, 
+it's working off a touch-based volume trigger.  The next step is to get the trigger
+working with a gunshot.  It probably has something to do with a takeDamage trigger.
+
+I also figured out that kismet sequences can be copied and pasted to and from text files.
+This seems to be the best way to 'export' them, and I'll be doing that unless I find a better
+way.
+
+-Zach
